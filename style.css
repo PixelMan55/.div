@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to left, orange,blue);
+}
+div{
+    display: flex;
+    gap: 0.3em;
+}
+h1{
+    font-family: "Train One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.buttons{
+display: flex;
+justify-content: center;
+}
+.plus1{
+    width: 5%;
+    font-size: large;
+    background-color: green;
+    border-color: green;
+    border-radius: 10px;
+}
+
+.minus1{
+    width: 5%;
+    font-size: large;
+    background-color:red ;
+    border-color: red;
+    border-radius: 10px;
+}
+.mydivall{
+    display: flex;
+    justify-content: center;
+}
+.buttons5{
+    display: flex;
+    justify-content: center;
+}
+
+#button5Div{
+    display: none;
+}
